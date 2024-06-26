@@ -1,0 +1,1 @@
+# ansible-mongodb-enterprise-advanced-4-stig-hardening

@@ -41,9 +41,9 @@ audit_log_destination: file
 mongo_audit_directory_path: /var/log/mongodb/audit/
 mongo_audit_file_path: /var/log/mongodb/audit/auditLog.bson
 certificate_key_file_dest: /etc/ssl/mongodb.pem
-certificate_key_file_src: ../../../../certificates/mongodb.pem
+certificate_key_file_src: ../../certificates/mongodb.pem
 ca_file_dest: /etc/ssl/CA_bundle.pem
-ca_file_src: ../../../../certificates/dod_CAs.pem
+ca_file_src: ../../certificates/dod_CAs.pem
 data_file_directory_path: /data/db/
 
 ### ENCRYPTION SETTINGS

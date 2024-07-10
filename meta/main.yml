@@ -18,7 +18,8 @@ galaxy_info:
     - hardening
     - mongodb
     - stig
-  dependencies:
-    - role: mitre.yedit
-    - name: community.mongodb
-      type: collection
+
+dependencies:
+  - role: mitre.yedit
+  - name: community.mongodb
+    type: collection

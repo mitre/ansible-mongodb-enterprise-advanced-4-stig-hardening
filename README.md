@@ -1,4 +1,4 @@
-# Ansbile Role: MongoDB Enterprise Advanced 4.x STIG Hardening
+# Ansible Role: MongoDB Enterprise Advanced 4.x STIG Hardening
 
 This repository contains an ansible role for hardening MongoDB based on [DISA's](https://public.cyber.mil/stigs/downloads/) MongoDB Enterprise Advanced 4.x Security Technical
 Implementation Guide (STIG) Version 1, Release 2. (Applies to database versions 4, 5, 6, & 7)

@@ -98,6 +98,11 @@ These variables offer additional configuration options during the installation o
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `mongo_filter` | Filter for MongoDB auditing. Example: `'{ atype: { $in: [ "createCollection", "dropCollection" ] } }'`. More information [here.](https://www.mongodb.com/docs/manual/tutorial/configure-audit-filters/) |
 
+## Dependencies
+
+- `mitre.yedit` role
+- `community.mongodb` collection
+
 ## Example Playbook
 
 ```yaml

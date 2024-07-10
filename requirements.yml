@@ -1,6 +1,0 @@
----
-roles:
-  - src: mitre.yedit
-
-collections:
-  - name: community.mongodb

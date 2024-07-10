@@ -70,3 +70,4 @@
     owner: "{{ mongo_owner }}"
     group: "{{ mongo_group }}"
     mode: "{{ mongo_permissions }}"
+    

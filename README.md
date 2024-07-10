@@ -55,7 +55,7 @@ These variables offer additional configuration options during the installation o
 | `mongo_port`               | Port for MongoDB. Defaults to `27017`.                                                                                                                     |
 | `mongo_auth_source`        | Authentication database for MongoDB. Defaults to `admin`.                                                                                                  |
 | `max_incoming_connections` | Maximum number of incoming connections. Defaults to `800000`.                                                                                              |
-| `authentication_mechanism` | Authentication mechanisms for MongoDB. Defaults to`SCRAM-SHA-256`. Other possible values [here.](https://www.mongodb.com/docs/manual/core/authentication/) |
+| `authentication_mechanism` | Authentication mechanisms for MongoDB. Defaults to`SCRAM-SHA-256`. Other possible values [here](https://www.mongodb.com/docs/manual/core/authentication/). |
 
 ### ROLES AND USERS
 
@@ -96,7 +96,7 @@ These variables offer additional configuration options during the installation o
 
 | Variable       | Description                                                                                                                                                                                             |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `mongo_filter` | Filter for MongoDB auditing. Example: `'{ atype: { $in: [ "createCollection", "dropCollection" ] } }'`. More information [here.](https://www.mongodb.com/docs/manual/tutorial/configure-audit-filters/) |
+| `mongo_filter` | Filter for MongoDB auditing. Example: `'{ atype: { $in: [ "createCollection", "dropCollection" ] } }'`. More information [here](https://www.mongodb.com/docs/manual/tutorial/configure-audit-filters/). |
 
 ## Dependencies
 

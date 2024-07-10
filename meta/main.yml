@@ -21,5 +21,6 @@ galaxy_info:
 
 dependencies:
   - role: mitre.yedit
-  - name: community.mongodb
-    type: collection
+
+collections:
+  - community.mongodb

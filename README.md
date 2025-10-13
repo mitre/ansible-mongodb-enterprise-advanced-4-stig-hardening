@@ -115,14 +115,6 @@ These variables offer additional configuration options during the installation o
         enterprise_edition: true
 ```
 
-## License
-
-- See the [License](/LICENSE.md)
-
-## Notice
-
-- See the [Notice](/NOTICE.md)
-
 ## Authors
 
 - Sean Chacon Cai - [seanlongcc](https://github.com/seanlongcc)
